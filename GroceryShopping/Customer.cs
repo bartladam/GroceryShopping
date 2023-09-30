@@ -8,5 +8,21 @@ namespace GroceryShopping
 {
     internal class Customer
     {
+        public GroceryCard groceryCard { get; init; }
+        public Customer(GroceryCard? card)
+        {
+            this.groceryCard = card;
+        }
+        public void Shopping(Scan_Go scanGo)
+        {
+            if(scanGo is not null)
+            {
+
+            }
+            else
+            {
+
+            }
+        }
     }
 }
