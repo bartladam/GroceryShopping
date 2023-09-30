@@ -12,6 +12,7 @@ namespace GroceryShopping
         public string Surname { get; private set; }
         public int numberCard { get; private set; }
         private Random randomNumber { get; set; }
+        public int bonusPoints { get; private set; } // i have to complete it
         public GroceryCard(string name, string surname)
         {
             randomNumber = new Random();
