@@ -39,7 +39,7 @@ namespace GroceryShopping
                         Console.Clear();
                         Console.Write("Product: ");
                         Products product = new Products(Console.ReadLine()) { priceProduct = 120};
-                        Console.WriteLine("Product scaned by ScanGo");
+                        Console.WriteLine("Product scanned by ScanGo");
                         scanGo.AddProductToList(product);
                         basket.AddToBasket(product);
                     }
