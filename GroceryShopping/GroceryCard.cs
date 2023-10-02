@@ -8,17 +8,32 @@ namespace GroceryShopping
 {
     internal class GroceryCard
     {
+        /// <summary>
+        /// Grocery card have to name, for recognize customer
+        /// </summary>
         public string Name { get; private set; }
+        /// <summary>
+        /// Grocery card have to surname, for recognize customer
+        /// </summary>
         public string Surname { get; private set; }
-        public int numberCard { get; private set; }
+        /// <summary>
+        /// Specific number, which is used when we use ScanGo
+        /// </summary>
+        public int cardNumber { get; private set; }
+        /// <summary>
+        /// Card number is setted randomly
+        /// </summary>
         private Random randomNumber { get; set; }
-        public int bonusPoints { get; private set; } // i have to complete it
+        /// <summary>
+        /// When customer own this card, he can collect bonus points from shopping
+        /// </summary>
+        public int bonusPoints { get; set; }
         public GroceryCard(string name, string surname)
         {
             randomNumber = new Random();
             this.Name = name;
             this.Surname = surname;
-            this.numberCard = randomNumber.Next(1000000, 3000000);
+            this.cardNumber = randomNumber.Next(1000000, 3000000);
         }
 
     }

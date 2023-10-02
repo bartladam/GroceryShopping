@@ -8,11 +8,20 @@ namespace GroceryShopping
 {
     internal class Customer
     {
+        /// <summary>
+        /// Grocery card is important for using ScanGo. ScanGo works only when customer has grocery card
+        /// </summary>
         public GroceryCard groceryCard { get; init; }
         public Customer(GroceryCard? card)
         {
             this.groceryCard = card;
         }
+        /// <summary>
+        /// Customer is choosing in grocery shop and he put to basket.
+        /// </summary>
+        /// <param name="scanGo"></param>
+        /// <param name="basket"></param>
+        /// <param name="card"></param>
         public void Shopping(ScanGo scanGo, Basket basket, CreditCard card)
         {
             string choice;

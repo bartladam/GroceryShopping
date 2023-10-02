@@ -8,11 +8,18 @@ namespace GroceryShopping
 {
     internal class Basket
     {
+        /// <summary>
+        /// Product in basket
+        /// </summary>
         public List<Products> listProducts { get; private set; }
         public Basket()
         {
             listProducts = new List<Products>();
         }
+        /// <summary>
+        /// Customer can something add to basket
+        /// </summary>
+        /// <param name="product"></param>
         public void AddToBasket(Products product)
         {
             listProducts.Add(product);
