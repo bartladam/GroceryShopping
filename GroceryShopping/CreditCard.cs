@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace GroceryShopping
 {
+    /// <summary>
+    /// Customer have a choice between pay with money or credit card
+    /// </summary>
     internal class CreditCard
     {
         /// <summary>

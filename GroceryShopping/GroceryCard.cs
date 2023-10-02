@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace GroceryShopping
 {
+    /// <summary>
+    /// Important card for ScanGo and collecting bonuses on discount in next shopping
+    /// </summary>
     internal class GroceryCard
     {
         /// <summary>

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace GroceryShopping
 {
+    /// <summary>
+    /// Customer is buying product
+    /// </summary>
     internal class Customer
     {
         /// <summary>

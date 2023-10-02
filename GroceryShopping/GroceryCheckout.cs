@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace GroceryShopping
 {
+    /// <summary>
+    /// Guides the customer in payment in grocery 
+    /// </summary>
     internal class GroceryCheckout
     {
         /// <summary>
@@ -77,7 +80,7 @@ namespace GroceryShopping
             }
             scanGo.groceryCard.bonusPoints += temp / 100;
             Console.WriteLine("You have got {0} bonus points on your card", scanGo.groceryCard.bonusPoints);
-            return string.Format("Paid sucessfully");
+            return string.Format("Paid sucessfully.");
         }
     }
 }

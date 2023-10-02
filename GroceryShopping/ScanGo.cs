@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace GroceryShopping
 {
+    /// <summary>
+    /// Customer can use ScanGo for faster shopping
+    /// </summary>
     internal class ScanGo
     {
         /// <summary>

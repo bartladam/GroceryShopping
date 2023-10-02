@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace GroceryShopping
 {
+    /// <summary>
+    /// Customer use basket even when he doens't use ScanGo
+    /// </summary>
     internal class Basket
     {
         /// <summary>
